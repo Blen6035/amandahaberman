@@ -37,8 +37,35 @@ body{
    opacity: 0.75;
    position: absolute;
 }
+/*Intro*/
+#intro{
+    padding-top: 90px;
+}
+ #laugh{
+     width: 30%;
+ }
+
+ #smile{
+     width: 30%;
+ }
 
 /*Footer*/
+.footernavigation-bar {
+    width: 100%;  
+    height: 200px; 
+    background-color: black; 
+    margin: 0;
+    padding: 0;
+}
+.footlogo {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 8%;
+    margin-right: 50%;
+    margin-top: 15px;
+    
+}
 .footernavigation-bar > a {
     font-family: 'Raleway', sans-serif;
     font-weight:700;
