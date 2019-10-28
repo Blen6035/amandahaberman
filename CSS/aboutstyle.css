@@ -34,43 +34,20 @@ body{
    background-color:whitesmoke;
    position: absolute;
 }
-/*Intro*/
 
-#top:hover {
-    background-color:#FFE200;
+h1{
+    padding-top: 15%;
 }
 
-#intro{
-    padding-top: 50%;
-    font-size: 450%;
-    font-family: 'Raleway', sans-serif;
-    font-weight:700;
+.col-sm-6{
+    padding: 3em;
+    margin: 0;
 }
 
-
- #laugh{
-     width: 130%;
-     padding-top: 20%;
-     
- }
-
- #slider{
-     background-color: #FF3B00;
- }
-
- #workslider{
-    width: 80%;
-    margin: 3em 5em 3em 5em;
- }
-
- #smile{
-     width: 170%;
- }
-
-
- #bottom:hover {
-    background-color:#FFE200;
- }
+#side {
+    width: 110%;
+    padding-top: 6%;
+}
 
 /*Footer*/
 .footernavigation-bar {

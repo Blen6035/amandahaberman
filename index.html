@@ -14,21 +14,66 @@
 </head>
 <body>
     <header>         
-        <nav class="navigation-bar">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <img class="logo" src="Images/BrandingFull.png" alt="Amanda Haberman">
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
+            <a href="about.html">About</a>
+            <a href="work.html">Work</a>
         </nav></header>
-   <h1 id="intro">Let's get to work.</h1> 
-   <h2>Hi, I'm Amanda. I make pretty things.</h2>
-   <img id="laugh" src="Images/AmandaHabermanLaugh.png" alt="Amanda Haberman the designer">
+<div class="container-fluid">
+    <div class="row">
+    <div id="top" class="col-sm-6">
+        <h1 id="intro">Let's get to work.</h1> 
+        <h2>Hi, I'm Amanda. I make pretty things.</h2>
+    </div>
+    <div class="col-sm-6" style="background-color:#FFE200;">
+        <img id="laugh" src="Images/AmandaHabermanLaugh.png" alt="Amanda Haberman the designer">
+    </div>
+</div>
+</div>
    <!--Slider-->
+   <div id="slider">
    <h1>This is what I do</h1>
-   <img id="slider" src="Images/HogwartsBlenden.png" alt="Hogwarts Website"><br>
-   <img id="smile" src="Images/AmandaHaberman.png" alt="Amanda Haberman the designer">
-   <h1>This is who I am</h1>
-   <p>I am a maker, a creator, and a doer. I think outside the box, and never mince words. I love crazy ideas and I'm always ready for a new challenge. Are you ready to work together? Let's get weird.</p>
-   <p>"Amanda is great to work with. She always comes up with new and exciting ideas I had not considered before." -A Satisfied Customer</p>
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-12">
+               <div id="workslider" class="carousel slide" data-ride="carousel">
+                   <!--wrapper-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="Images/HogwartsBlenden.png" alt="Hogwarts website">
+                        </div>
+                        <div class="item">
+                                <img src="Images/LighthouseHaberman.png" alt="Lighthouse website">
+                            </div>
+                    </div>
+                    <!--controls-->
+                    <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+   
+
+   <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-4" style="background-color:#FFE200;">
+            <img id="smile" src="Images/AmandaHaberman.png" alt="Amanda Haberman the designer">
+        </div>
+        <div id="bottom" class="col-sm-8" >
+                <h1>This is who I am</h1>
+                <p>I am a maker, a creator, and a doer. I think outside the box, and never mince words. I love crazy ideas and I'm always ready for a new challenge. Are you ready to work together? Let's get weird.</p>
+                <p>"Amanda is great to work with. She always comes up with new and exciting ideas I had not considered before." -A Satisfied Customer</p>
+        </div>
+    </div>
+    </div>
+
    <footer>
         <nav class="footernavigation-bar">
             <a href="#work">Work</a>
