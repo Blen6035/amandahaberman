@@ -36,8 +36,14 @@ body{
 }
 /*Intro*/
 
+#top{
+    background: linear-gradient(to right,white 50%, #FFE200 50%);
+    background-size: 200% 100%;
+    background-position:left bottom;
+    transition:all 2s ease;
+}
 #top:hover {
-    background-color:#FFE200;
+    background-position:right bottom;
 }
 
 #intro{
@@ -67,10 +73,16 @@ body{
      width: 170%;
  }
 
+ #bottom{
+    background: linear-gradient(to left,white 50%, #FFE200 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 2s ease;
+}
+#bottom:hover {
+    background-position:left bottom;
+}
 
- #bottom:hover {
-    background-color:#FFE200;
- }
 
 /*Footer*/
 .footernavigation-bar {
