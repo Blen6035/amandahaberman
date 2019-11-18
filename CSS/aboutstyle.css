@@ -41,12 +41,21 @@ h1{
 
 .col-sm-6{
     padding: 3em;
-    margin: 0;
 }
 
 #side {
     width: 110%;
     padding-top: 6%;
+}
+
+#email {
+    width: 50px;
+    margin: 10px;
+}
+
+#linkedin {
+    width: 35px;
+   margin: 10px;
 }
 
 /*Footer*/
