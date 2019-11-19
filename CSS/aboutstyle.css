@@ -4,7 +4,6 @@ body{
 }
 
 /*top nav*/
-
 .logo {
    display: inline-block;
    vertical-align: top;
@@ -13,9 +12,9 @@ body{
    margin-top: 1%;
    margin-left: 10px;
 }
-.navbar > a {
-   font-family: 'Raleway', sans-serif;
-   font-weight:700;
+.navbar > .navlink {
+   font-family: 'Montserrat', sans-serif;
+   font-weight:600;
    display: inline-block;
    float: right;
    vertical-align: top;
@@ -35,26 +34,45 @@ body{
    position: absolute;
 }
 
-h1{
-    padding-top: 15%;
+.col-sm-6{
+    padding-top: 3em;
+    margin: 0;
+    background-color:#FFE200;
+    height: 550px;
 }
 
-.col-sm-6{
-    padding: 3em;
+.col-sm-6 > h1{
+    font-size: 350%;
+    padding-top: 1.25em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900; 
 }
 
 #side {
-    width: 110%;
-    padding-top: 6%;
+    max-height: 100%;
+    padding-top: 2.25em;
+}
+
+.col-sm-6 > h2{
+    font-size: 250%;
+    padding-top: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900; 
+}
+
+.col-sm-6 > p{
+font-family: 'Montserrat', sans-serif;
+font-weight:600;
+font-size: 100%;
 }
 
 #email {
-    width: 50px;
+    width: 75px;
     margin: 10px;
 }
 
 #linkedin {
-    width: 35px;
+    width: 50px;
    margin: 10px;
 }
 
@@ -76,8 +94,8 @@ h1{
     
 }
 .footernavigation-bar > a {
-    font-family: 'Raleway', sans-serif;
-    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
     display: inline-block;
     float: left;
     vertical-align: top;
@@ -92,8 +110,8 @@ h1{
 
 footer p {
     color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
     font-size: 100%;
     clear: both;
     padding-top: 1em;
