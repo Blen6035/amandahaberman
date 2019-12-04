@@ -7,7 +7,7 @@ body{
 
 /*top nav*/
 
-.logo {
+.logo img{
     display: inline-block;
     vertical-align: top;
     width: 30%;
@@ -37,15 +37,25 @@ body{
    position: absolute;
 }
 
-h1{
-    font-size: 350%;
-    padding-top: 2em;
+.title{
+    font-size: 400%;
     font-family: 'Montserrat', sans-serif;
     font-weight:900; 
+    color: #FF3B00;
 }
 
-.col-sm-6{
-    float:right;
+#top{
+    margin-top: 8em;
+}
+
+#top h1{
+    margin-top: 2em;
+}
+
+
+#bottom{
+    text-align: center;
+    padding-bottom: 0.5em;
 }
 
 /*Footer*/

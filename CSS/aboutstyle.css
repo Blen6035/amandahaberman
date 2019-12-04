@@ -4,7 +4,7 @@ body{
 }
 
 /*top nav*/
-.logo {
+.logo img{
    display: inline-block;
    vertical-align: top;
    width: 30%;
@@ -33,6 +33,7 @@ body{
    background-color:whitesmoke;
    position: absolute;
 }
+
 
 .col-sm-6{
     padding-top: 3em;
