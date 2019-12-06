@@ -99,3 +99,72 @@ footer p {
     padding-top: 1em;
     margin-left: 15px;
 }
+
+ /*responsive tablet*/
+ @media only screen and (max-width: 900px){
+    .logo img{
+        margin-top: 3%;
+        margin-left: 20px;
+        width: 30%;
+     }
+     .navbar > a {
+        margin-right: 60px;
+     }
+    .navbar { 
+        height: 7%; 
+     }
+     #top h1{
+        margin-top: 1em;
+    }
+    .title{
+        font-size: 350%;
+    }
+ 
+}
+
+ /*responsive phone*/
+ @media only screen and (max-width: 400px){
+    .logo img{
+        margin-top: 3%;
+        margin-left: 20px;
+        width: 50%;
+     }
+
+    .navbar { 
+        height: 3%; 
+     }
+     
+     .navbar > a {
+        font-size: 30%;
+     }
+
+     #top h1{
+        margin-top: 1em;
+    }
+    .title{
+        font-size: 350%;
+    }
+   
+     .footernavigation-bar {
+        height: 80px; 
+    }
+ 
+    .footernavigation-bar > a {
+        margin-left: 10px;
+        height: 40px;        
+        font-size: 70%;
+    }
+
+    .footlogo {
+        margin-top: 30px;
+        width: 10%;
+        
+    }
+    
+    footer p {
+        font-size: 40%;
+        clear: both;
+        padding-top: 1em;
+        margin-left: 15px;
+    }
+}

@@ -142,3 +142,102 @@ footer p {
     padding-top: 1em;
     margin-left: 15px;
 }
+
+ /*responsive tablet*/
+ @media only screen and (max-width: 900px){
+    .logo {
+        margin-top: 3%;
+        margin-left: 20px;
+     }
+     .navbar > a {
+        margin-right: 60px;
+     }
+    .navbar { 
+        height: 7%; 
+     }
+     #intro{
+        padding-top: 28%;
+        font-size: 420%;
+
+    }
+    #bottom h1{
+        padding-top: 0em;
+        font-size: 300%;
+     }
+     #bottom p{
+        font-size: 110%;
+     }
+}
+
+ /*responsive phone*/
+ @media only screen and (max-width: 400px){
+    .logo {
+        margin-top: 3%;
+        margin-left: 20px;
+        margin-right: 0px;
+     }
+     .navbar > a {
+        font-size: 100%;
+        margin-right: 10px;
+     }
+    .navbar { 
+        height: 3%; 
+     }
+     #intro{
+        padding-top: 20%;
+        font-size: 250%;
+
+    }
+    #top h2{
+        font-size: 125%;
+        margin-bottom: 10%;
+
+    }
+    #yellowtop{
+        height: 350px;
+    }
+
+    #slider h1{
+        text-align: center;
+        font-size: 250%;
+        padding-top: 1.5em;
+     }
+    
+     #workslider{
+        width: 90%;
+        margin: 3em 5em 3em 5em;
+     }
+
+    #bottom h1{
+        padding-top: 1.5em;
+        font-size: 200%;
+     }
+     #bottom p{
+        font-size: 90%;
+     }
+     #yellowbottom{
+         height: 350px;
+     }
+     .footernavigation-bar {
+        height: 80px; 
+    }
+ 
+    .footernavigation-bar > a {
+        margin-left: 10px;
+        height: 40px;        
+        font-size: 70%;
+    }
+
+    .footlogo {
+        margin-top: 30px;
+        width: 10%;
+        
+    }
+    
+    footer p {
+        font-size: 40%;
+        clear: both;
+        padding-top: 1em;
+        margin-left: 15px;
+    }
+}
